@@ -97,6 +97,5 @@ function modalOpener(event) {
       alt="${event.target.alt}"
     />
     </div>`);
-  console.log(event.target.dataset.source);
   modalWindow.show();
 }
